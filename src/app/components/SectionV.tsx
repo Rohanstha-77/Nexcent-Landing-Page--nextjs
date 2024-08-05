@@ -17,7 +17,7 @@ const SectionV = ({src,heading,paragraph}:SectionVprops) => {
                     <div className='flex-shrink-0'>
                         <Image src={src} height={600} width={600} alt='image not found'/>
                     </div>
-                    <div className=''>
+                    <div>
                         <div>
                             <h1 className='text-4xl leading-tight font-semibold text-D_gray'>{heading}</h1>
                             <p className='text-sm font-normal text-Gray leading-5 pt-2'>{paragraph}</p>

@@ -13,8 +13,8 @@ const Help = () => {
                         <p className='text-sm font-normal text-Gray leading-5 pt-2'>We reached here with our hard work and dedication</p>
                     </div>
                     <div className='gridContainer'>
-                        {Local.map((local)=>(
-                            <div className='flex pb-8 mr-8'>
+                        {Local.map((local,index)=>(
+                            <div className='flex pb-8 mr-8' key={index}>
                                 <div className='mr-4'>
                                     <Image src={local.icon} height={60} width={60} alt='image not found'/>
                                 </div>

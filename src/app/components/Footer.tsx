@@ -28,7 +28,7 @@ const Footer = () => {
                                 <div className='mr-24' key={index}>
                                     <h1 className='text-silver font-semibold pb-4 text-xl'>{list.title}</h1>
                                     {list.detail.map((list)=>(
-                                        <ul className='text-sm font-normal text-silver'>
+                                        <ul key={list} className='text-sm font-normal text-silver'>
                                             <li className='pt-2'>{list}</li>
                                         </ul>
                                     ))}

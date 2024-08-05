@@ -16,7 +16,7 @@ const Community = () => {
                 </div>
 
                 
-                <div className=' '>
+                <div>
                 <CommunityCard/>
                 </div>
             </div>

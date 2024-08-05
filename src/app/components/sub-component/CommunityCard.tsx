@@ -5,8 +5,8 @@ import { Community } from '../../constants'
 const CommunityCard = () => {
   return (
     <div className='flex flex-wrap justify-between w-full max-w-7xl mx-auto gap-4'>
-      {Community.map((community) => (
-        <div key={community.icon} className='border rounded-md py-6 flex flex-col items-center shadow-lg w-72'>
+      {Community.map((community,index) => (
+        <div key={index} className='border rounded-md py-6 flex flex-col items-center shadow-lg w-72'>
           <div className='flex justify-center'>
             <Image src={community.icon} height={100} width={100} alt='Community Icon'/>
           </div>

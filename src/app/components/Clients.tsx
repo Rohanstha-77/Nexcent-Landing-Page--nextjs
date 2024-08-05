@@ -14,7 +14,7 @@ const  Clients= () => {
                 </div>
                 <div className='flex justify-between items-center pt-8'>
                     {ClientLogo.map((logo)=>(
-                        <Image src={logo} height={40} width={40} alt='image not found'/>
+                        <Image  key={logo} src={logo} height={40} width={40} alt='image not found'/>
                     ))}
                 </div>
             </div>
